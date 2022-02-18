@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <!--Body section-->
+    <body>
+        <div class="bg-danger p-2"></div>
+        <div class="container" > 
+
+        <!--Header-->
+        <header class="site-header"  style="height: 92px;">
+            <title>Register</title>
+            <div class="header-wrapper p-3">
+                <div class="d-flex justify-content-between">
+                    <div class="logo-wrapper">
+                        <!--Image-->
+                        <img src="E:\TatvSoft\image\logo tatvasoft.png"  class="img-thumbnail" style="height: 60px; width: 100%; border: none;">
+                    </div>
+                    <div style="padding: top 10px;">
+                        <div class="btn" style="color: #f14d54; font-size: 14px; font: Roboto;">Login</div> | <div class="btn"  style="color: #f14d54; font-size: 14px; font: Roboto;">Register</div>
+                        <button class="btn" style="border: 1px solid rgb(65,65,65); background-color: white; "><i class="fa fa-shopping-cart" style="font-size:24px;color:red;"></i> <span style="color:red"> 0</span> Cart</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        </div>
+
+        <!--Navbar-->
+        <nav class="bg-light" style="height: 80px; display: flex; justify-content: center; background-color: #333333; "  >  
+            <form class="form-inline my-2 my-lg-0" >
+                <input class="form-control mr-sm-2" style="color: #333333;height: 40px; width: 422px; font-style: italic; margin-top: 20px; margin-bottom: 20px;" type="search" placeholder="What are you looking for..." aria-label="Search">
+                <button class="form-control mr-sm-2" style="height: 40px; background-color: #80BF32; font-size: 16px; max-width: 129px; color: white; border : none;">
+                    <i class="fa fa-search" style="font-size:16px;color:white"></i> Search</button>
+                <button class="form-control mr-sm-2" style="height: 40px; background-color: #f14d54; font-size: 16px; max-width: 129px; color: white; border : none;">Cancel</button>
+            </form>
+        </nav>
+
+        <!--Page direction-->
+        <div class="text-center">
+            <div style="color: #414141; font-size: 18px; font-style: Roboto; padding-top: 50px; display: inline-block;">Home</div>&nbsp;&nbsp;>&nbsp;&nbsp;<div style="color: #f14d54; display: inline-block; font-size: 18px; font-style: Roboto;">Create an Account</div>
+            <div style="color: #414141; font-style: Roboto; font-size: 32px;padding-top: 50px; padding-bottom: 25px;"><h1>Login Or Create an Account</h1></div>
+        </div>   
+
+
+        <div class="container">
+            <div style="font-size: 20px; font-style: Roboto; color: #333333; padding-top: 50px; padding-bottom: 20px;">Personal Information</div>
+            <hr style="padding-bottom: 20px;">
+            <div style="font-size: 15px; font-style: Roboto-light; color: #838383; padding-bottom: 20px;">Please enter the following information to Create your account .</div>
+            <form style="font-size: 15px; font-style: Roboto; color: #414141;padding-bottom: 80px;">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="First Name" style="padding-bottom: 15px;">First Name *</label>
+                    <input type="text" class="form-control" id="First Name" style="height: 40px; width: 357px; ">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="Last Name" style="padding-bottom: 15px;">Last Name *</label>
+                    <input type="text" class="form-control" id="Last Name" style="height: 40px; width: 357px; ">
+                  </div>
+                </div>
+                <div class="form-group" style="padding-top: 40px; padding-bottom: 15px;">
+                  <label for="EmailAddress" style="padding-bottom: 15px;">Email Address *</label>
+                  <input type="text" class="form-control" id="EmailAddress" style="height: 40px;" >
+                </div>
+                <div class="form-group" style="font-size: 20px; font-style: Roboto; color: #333333; padding-top: 70px; padding-bottom: 20px;">
+                    <label>Login Information</label>
+                </div>
+                <hr style="padding-bottom: 20px;">
+                <div class="form-row" style="padding-bottom: 60px;">
+                    <div class="form-group col-md-6">
+                      <label for="Password" style="padding-bottom: 15px;">Password *</label>
+                      <input type="text" class="form-control" id="Password" style="height: 40px;">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="Confirm Password" style="padding-bottom: 15px;">Confirm Password *</label>
+                      <input type="text" class="form-control" id="Confirm Password" style="height: 40px;">
+                    </div>
+                </div>
+                <button class="btn" style="height: 45px; width: 136px; background-color: #f14d54; color: white;">Register</button>
+              </form>
+        </div>  
+
+
+        <!--Footer Section-->
+        <footer class="page-footer ">
+            <div class="bg-light">
+                <div class="container">
+                    <div class="d-flex justify-content-center">
+                        <div style="padding: 20px;">
+                             <img src="E:\TatvSoft\image\logo tatvasoft.png" style="height: 60px; width: 100%; border: none;">
+                        </div>
+                    </div>
+                </div>
+            <!--Image-->
+            <div class="footer-copyright text-center py-3" style="color: #838383;">© 2015 Tatvasoft com.All rights reserved.</div>
+            </div>
+        </footer>
+
+    </body>
+</html>
